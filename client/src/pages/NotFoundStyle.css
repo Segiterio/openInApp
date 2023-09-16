@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&family=Kanit&family=Montserrat&family=Roboto&family=Space+Mono&display=swap');
+
+*,
+*::after,
+*::before {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.mainContainer {
+     max-width: 1440px;
+     padding: 1rem;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     margin: 0 auto;
+}
+
+.not_found {
+     font-family: Inconsolata;
+     font-weight: 700;
+     letter-spacing: -0.035em;
+     font-size: 24px;
+     text-transform: uppercase;
+}
+
+.contianer {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.content_container {
+     display: flex;
+     flex-direction: column;
+     gap: 1em;
+     align-items: start;
+}
+
+h1 {
+     font-family: "Space Mono";
+     font-size: 48px;
+     font-weight: 700;
+     letter-spacing: -.035em;
+}
+
+.para {
+     font-family: Space Mono;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     letter-spacing: -0.035em;
+     text-align: left;
+    }
+
+.back_btn {
+     all: unset;
+     font-family: Space Mono;
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 21px;
+     letter-spacing: -0.035em;
+     text-align: left;
+     background-color: #333;
+     color: white;
+     padding: 1em 1.5em;
+}
+
+footer {
+     font-family: Montserrat;
+     font-size: 14px;
+     width: 100%;
+     text-align: center;
+     color: #BDBDBD;
+     margin-top: auto;
+}
+
+footer span {
+     font-weight: bold;
+}
+
+@media screen and (min-width:1024px) {
+     .container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin: auto 0;
+          gap: 2rem
+     }
+
+     .content_container {
+          gap: 2rem
+     }
+
+     h1 {
+          font-size: 64px;
+     }
+     .para {
+          font-family: Space Mono;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 36px;
+          max-width: 380px;
+        
+     }
+
+}
