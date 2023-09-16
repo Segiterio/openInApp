@@ -30,9 +30,9 @@ const Icons = [
 
 const Template = ({children}) => {
   return (
-    <div className="h-screen">
-      <div className="grid sm:grid-cols-2 h-full relative">
-        <div className=" z-10 py-6 ">
+    <div className="">
+      <div className="grid sm:grid-cols-2 h-screen">
+        <div className="z-10 py-6 relative bg-blue-500 sm:bg-transparent">
           <div className="flex flex-col justify-between items-center h-full gap-4">
             <div className="self-start text-2xl font-bold text-white font-Montserrat pl-4">
               Logo
@@ -56,7 +56,7 @@ const Template = ({children}) => {
           </div>
         </div>
         {children}
-        <div className="absolute h-full leftImage bg-no-repeat bg-cover  inset-0 sm:-translate-x-1/2"></div>
+        <div className="absolute hidden sm:block min-h-full leftImage bg-no-repeat bg-cover inset-0 sm:-translate-x-1/2"></div>
       </div>
     </div>
   );

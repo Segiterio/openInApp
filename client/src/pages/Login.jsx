@@ -24,7 +24,7 @@ const Login = () => {
   return (
     <Template>
       <div className="flex items-center justify-center z-10 py-6 ">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 ">
           <div>
             <h1 className="sm:text-4xl text-2xl font-bold font-Montserrat">
               Sign In
