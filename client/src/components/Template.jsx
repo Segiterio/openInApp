@@ -56,7 +56,7 @@ const Template = ({children}) => {
           </div>
         </div>
         {children}
-        <div className="absolute h-full bg-leftImage bg-no-repeat bg-cover inset-0 sm:-translate-x-1/2 bg-[#F8FAFF]"></div>
+        <div className="absolute h-full leftImage bg-no-repeat bg-cover  inset-0 sm:-translate-x-1/2"></div>
       </div>
     </div>
   );
