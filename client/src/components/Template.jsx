@@ -1,9 +1,9 @@
 
 import React from "react";
-import DiscordIcon from "../assets/Social_icons/discord.svg";
-import LinkedinIcon from "../assets/Social_icons/linkedin.svg";
-import GithubIcon from "../assets/Social_icons/Vector1.svg";
-import TwitterIcon from "../assets/Social_icons/Vector.svg";
+import DiscordIcon from "../assets/socialicons/discord.svg";
+import LinkedinIcon from "../assets/socialicons/linkedin.svg";
+import GithubIcon from "../assets/socialicons/Vector1.svg";
+import TwitterIcon from "../assets/socialicons/Vector.svg";
 
 const Icons = [
   {
