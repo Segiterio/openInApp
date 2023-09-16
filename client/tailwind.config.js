@@ -23,7 +23,7 @@ export default {
          shadowFull:"4px 4px 20px rgba(0,0,0,.1) "
       },
       backgroundImage:{
-        "leftImage" : "url('./src/assets/socialicons/Leftside.svg')",
+        "leftImage" : "url('./src/assets/socialicons/leftside.svg')",
       }
     },
   },
