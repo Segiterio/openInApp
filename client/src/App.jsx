@@ -22,7 +22,7 @@ function App() {
     <>
       <div className="bg-[#F8FAFF]">
         <Routes>
-          <Route path="/" element={<div><Link className="" to="/login" >Go to login</Link></div>} />
+          <Route path="/" element={<div className="w-screen border h-screen flex justify-center items-center text-4xl font-bold"><Link className="border-2 active:scale-95 px-4 py-2 border-black" to="/login" >Go to login</Link></div>} />
           <Route path="/dashboard" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp data={{...data}} setData={setData} />} />

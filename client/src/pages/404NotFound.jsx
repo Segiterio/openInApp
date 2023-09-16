@@ -2,6 +2,7 @@ import React from 'react'
 import "./NotFoundStyle.css"
 import Scarecrow from "../assets/Scarecrow.png"
 import { useNavigate } from 'react-router-dom'
+import { BackHomeBtn } from '../components/BackHomeBtn'
 
 const NotFound = () => {
   const navigate = useNavigate();
@@ -19,9 +20,7 @@ const NotFound = () => {
           The page you are looking for might be removed or is temporarily
           unavailable
         </p>
-        <button className="back_btn hover:cursor-pointer" onClick={() => {
-           navigate("/");
-        }}>BACK TO HOMEPAGE</button>
+        <BackHomeBtn/>
       </div>
     </div>
     <footer>
