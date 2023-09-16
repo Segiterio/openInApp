@@ -113,7 +113,6 @@ const Modal = ({ setShowModal }) => {
                 <div className="flex flex-col gap-2 ">
                   <label
                     htmlFor="insta"
-                    className="after:content-['*'] after:text-red-500"
                   >
                     Instagram Link <span>{"(Optional)"}</span>
                   </label>
@@ -128,7 +127,6 @@ const Modal = ({ setShowModal }) => {
                 <div className="flex flex-col gap-2 ">
                   <label
                     htmlFor="phone"
-                    className="after:content-['*'] after:text-red-500"
                   >
                     Youtube Link <span>{"(Optional)"}</span>
                   </label>
